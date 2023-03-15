@@ -1,0 +1,47 @@
+.image{
+    width: 100%;
+}
+.wrapper{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.mainDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.connect{
+    /* left: 33vw; */
+    /* top: 26vh; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    text-align: center;
+    color: #2F2F2F;
+}
+.bold{
+    font-weight: bold;
+}
+.metamaskLogo{
+    /* top: 46vh; */
+    /* left: 31vw; */
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.phantomLogo{
+    /* top: 46vh; */
+    /* left: 51vw; */
+    cursor: pointer;
+    border: none;
+    background: none;
+}
